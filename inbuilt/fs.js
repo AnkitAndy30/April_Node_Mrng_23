@@ -16,6 +16,8 @@ let fs = require('fs');
 // })
 
 
+// readFileSync() will read the file in a synchronous order but readFile may read the file concurrently and mix up the data.
+
 // let data  = fs.readFileSync('city.json',{encoding:'utf-8',flag:'r'})
 // console.log(data)
 
