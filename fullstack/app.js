@@ -1,10 +1,10 @@
 let express = require('express');
 let app = express();
 let dotenv = require('dotenv');
-dotenv.config()
+dotenv.config()                                        //THIS WILL PICK THE ENVIRONMENT VARIABLES FROM .env FILE
 let morgan = require('morgan');
 let fs = require('fs');
-let port= process.env.PORT || 6700;
+let port= process.env.PORT || 6700;                    //THIS WILL ASSIGN THE PORT TO THE VARIABLE 'port' IF IT IS AVAILABLE IN ENVIRONMENT VARIABLE OTHERWISE IT WILL ASSIGN 6700
 
 
 let menu = [
