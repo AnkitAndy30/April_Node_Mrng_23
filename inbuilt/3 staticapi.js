@@ -12,3 +12,12 @@ let server = http.createServer(function(req, res){
 })
 
 server.listen(6300)
+
+
+/*
+Whenever we get application then we just run two commands
+1) npm i                to install all the packages and dependencies
+2) npm start            to start the server
+*/
+
+//Note:- Whenever we get the application we never ask which file to start because the file that has server to start will be written in package.json 
