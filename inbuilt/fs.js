@@ -25,6 +25,9 @@ let fs = require('fs');
 // console.log(data1)
 
 
+
+// Here in below code if we don't hnadle error then it will show the output file deleted even if the file does not exist so we should always handle error.
+
 // fs.unlink('mycode.txt',(err)=>{
 //     if(err) throw err;
 //     console.log('file deleted')
